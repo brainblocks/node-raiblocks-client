@@ -1,0 +1,32 @@
+{
+  "name": "raiblocks-client",
+  "version": "1.0.0",
+  "description": "Node.js client for raiblocks node",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brainblocks/node-raiblocks-client.git"
+  },
+  "keywords": [
+    "node",
+    "raiblocks"
+  ],
+  "author": "Daniel Brain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brainblocks/node-raiblocks-client/issues"
+  },
+  "homepage": "https://github.com/brainblocks/node-raiblocks-client#readme",
+  "dependencies": {
+    "child-process-promise": "^2.2.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "jest": "^22.0.6",
+    "nock": "^9.1.6"
+  }
+}
