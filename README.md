@@ -33,3 +33,9 @@ raiClient.account_balance({ account: account }).then(balance => {
 ### Available commands
 
 https://github.com/clemahieu/raiblocks/wiki/RPC-protocol
+
+### Running tests
+
+```bash
+npm test
+```
