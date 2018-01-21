@@ -15,7 +15,7 @@ Install the RaiBlocks node: https://github.com/clemahieu/raiblocks
 ### Example
 
 ```javascript
-let { client } = require('./index');
+let { client } = require('raiblocks-client');
 
 let raiClient = client({
     rai_node_host: 'http://127.0.0.1:7076'
